@@ -72,14 +72,19 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 </table>
 <!--platinum end-->
 
-<h3 align="center">Platinum Sponsors (China)</h3>
 <!--special-china start-->
+<h3 align="center">Platinum Sponsors (China)</h3>
 <table>
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://gitee.com/?from=vue" target="_blank">
-          <img width="177px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/gitee.png">
+        <a href="https://studio.qcloud.coding.net/campaign/favorite-plugins/?utm_source=vue.js&utm_content=cs-logo" target="_blank">
+          <img width="177px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/cloudstudio.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="http://www.dcloud.io/?hmsr=vuejsorg&hmpl=&hmcu=&hmkw=&hmci=" target="_blank">
+          <img width="177px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/dcloud.gif">
         </a>
       </td>
     </tr><tr></tr>
@@ -194,6 +199,11 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
           <img width="148px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/devsquad.png">
         </a>
       </td>
+      <td align="center" valign="middle">
+        <a href="https://www.inkoop.in/" target="_blank">
+          <img width="148px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/inkoop.png">
+        </a>
+      </td>
     </tr><tr></tr>
   </tbody>
 </table>
@@ -248,7 +258,7 @@ Vue.js supports all browsers that are [ES5-compliant](http://kangax.github.io/co
 
 [vue-router-status]: https://img.shields.io/npm/v/vue-router.svg
 [vuex-status]: https://img.shields.io/npm/v/vuex.svg
-[vue-cli-status]: https://img.shields.io/npm/v/vue-cli.svg
+[vue-cli-status]: https://img.shields.io/npm/v/@vue/cli.svg
 [vue-loader-status]: https://img.shields.io/npm/v/vue-loader.svg
 [vue-server-renderer-status]: https://img.shields.io/npm/v/vue-server-renderer.svg
 [vue-class-component-status]: https://img.shields.io/npm/v/vue-class-component.svg
@@ -257,7 +267,7 @@ Vue.js supports all browsers that are [ES5-compliant](http://kangax.github.io/co
 
 [vue-router-package]: https://npmjs.com/package/vue-router
 [vuex-package]: https://npmjs.com/package/vuex
-[vue-cli-package]: https://npmjs.com/package/vue-cli
+[vue-cli-package]: https://npmjs.com/package/@vue/cli
 [vue-loader-package]: https://npmjs.com/package/vue-loader
 [vue-server-renderer-package]: https://npmjs.com/package/vue-server-renderer
 [vue-class-component-package]: https://npmjs.com/package/vue-class-component

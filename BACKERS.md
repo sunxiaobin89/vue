@@ -62,6 +62,26 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 </table>
 <!--platinum end-->
 
+<!--special-china start-->
+<h3 align="center">Platinum Sponsors (China)</h3>
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://studio.qcloud.coding.net/campaign/favorite-plugins/?utm_source=vue.js&utm_content=cs-logo" target="_blank">
+          <img width="177px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/cloudstudio.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="http://www.dcloud.io/?hmsr=vuejsorg&hmpl=&hmcu=&hmkw=&hmci=" target="_blank">
+          <img width="177px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/dcloud.gif">
+        </a>
+      </td>
+    </tr><tr></tr>
+  </tbody>
+</table>
+<!--special-china end-->
+
 <h2 align="center">Platinum via OpenCollective</h2>
 
 <a href="https://opencollective.com/vuejs/tiers/platinum-sponsors/0/website" target="_blank"><img src="https://opencollective.com/vuejs/tiers/platinum-sponsors/0/avatar.svg"></a>
@@ -172,6 +192,11 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
       <td align="center" valign="middle">
         <a href="https://devsquad.com/" target="_blank">
           <img width="148px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/devsquad.png">
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://www.inkoop.in/" target="_blank">
+          <img width="148px" src="https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/inkoop.png">
         </a>
       </td>
     </tr><tr></tr>
@@ -310,7 +335,6 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Luca Borghini
 - kazuya kawaguchi
 - Keisuke KITA
-- Jack Barham
 - Santa Cruz
 - Simon East
 - Benjamin Listwon
@@ -333,11 +357,10 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Duncan J Kenzie
 - Mike Margerum
 - Guy Gavergun
-- Edithvale 
 - Intevation GmbH
 - Luiz Eduardo  Tanure Bacelar
+- Chengzhi Yin
 - Zoran Knezevic
-- Pascal Germain
 - Pierre Vanhulst
 - Jon Hobbs-Smith
 - Akiho Nagao
@@ -359,7 +382,6 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Guilherme S L de Souza
 - Rob Yedlin
 - Daniel Waghorn
-- Eric Githinji
 - Chih-Hsuan, Fan
 - Jordan Oroshiba
 - Cliff Hess
@@ -375,9 +397,7 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Bohdan Kokotko
 - Donald Fischer
 - Alexander Weiher
-- Daniel Cook
 - Shinya Katayama
-- Brendan Long
 - Jere Sjöroos
 - Wakana Seki
 - David Ang
@@ -389,7 +409,6 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Amor 
 - Tom Ootes
 - Andy Foster
-- Blake Campbell
 - Joe Cochran
 - Matt Sencenbaugh
 - The Commission Cafe, LLC.
@@ -402,7 +421,6 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Chris Calo
 - Milan Zivkovic
 - Christo Crampton
-- Jason Rys
 - Johnny Austin
 - Aaron Hung
 - Soichiro Isshiki
@@ -410,12 +428,13 @@ Funds donated via Patreon go directly to support Evan You's full-time work on Vu
 - Rob Mellett
 - Abraham Arango
 - Marko Bošković
-- Chris Lind
-- Andrej 
 - Ed Linklater
 - Garion Herman
 - Chris Bemister
 - Anfrew Willis
+- Carlos Adrián
+- Timothy J Bass
+- Yusuke Kawabata
 <!--10 end-->
 
 <h2 align="center">Backers via OpenCollective</h2>
