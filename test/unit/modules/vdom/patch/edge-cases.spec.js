@@ -49,12 +49,9 @@ describe('vdom patch: edge cases', () => {
           bind (el, binding, vnode) {
             waitForUpdate(() => {
               expect(vnode.children[0].data.on.click()).toBe(5)
-            }).then(() => {
               expect(vnode.children[2].data.on.click(dummyEvt)).toBe(5)
-            }).then(() => {
-              expect(vnode.children[4].data.on.click()).not.toBeDefined()
-            }).then(() => {
-              expect(vnode.children[6].data.on.click(dummyEvt)).not.toBeDefined()
+              expect(vnode.children[4].data.on.click()).toBe(10)
+              expect(vnode.children[6].data.on.click(dummyEvt)).toBe(10)
             }).then(done)
           }
         }
@@ -412,5 +409,28 @@ describe('vdom patch: edge cases', () => {
 
     expect(vm.$el.textContent).toBe('FooBar')
     expect(inlineHookSpy.calls.count()).toBe(2)
+  })
+
+  // regression #9396
+  it('should not force update child with no slot content', done => {
+    const Child = {
+      updated: jasmine.createSpy(),
+      template: `<div></div>`
+    }
+
+    const parent = new Vue({
+      template: `<div>{{ count }}<child/></div>`,
+      data: {
+        count: 0
+      },
+      components: { Child }
+    }).$mount()
+
+    expect(parent.$el.textContent).toBe(`0`)
+    parent.count++
+    waitForUpdate(() => {
+      expect(parent.$el.textContent).toBe(`1`)
+      expect(Child.updated).not.toHaveBeenCalled()
+    }).then(done)
   })
 })
